@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+        <style type="text/css">  
+            .raised{margin-left: 80px; margin-right: 80px;}  
+            .raised h1,.raised p{margin:0 10px;}  
+            .raised h1{font-size:2rem;color:#fff;}  
+            .raised p{padding-bottom:0.5rem;}  
+            .raised .b1,.raised .b2,.raised .b3,.raised .b4,.raised .b1b,.raised .b2b,.raised .b3b,.raised .b4b{display:block;overflow:hidden;font-size:1px;}  
+            .raised .b1,.raised .b2,.raised .b3,.raised .b1b,.raised .b2b,.raised .b3b{height:1px;}  
+            .raised .b2{background:rgba(255, 255, 255, 0.418);border-left:1px solid #fff;border-right:1px solid #eee;}  
+            .raised .b3{background:rgba(255, 255, 255, 0.418);border-left:1px solid #fff;border-right:1px solid #ddd;}  
+            .raised .b4{background:rgba(255, 255, 255, 0.418);border-left:1px solid #fff;border-right:1px solid #aaa;}  
+            .raised .b4b{background:rgba(255, 255, 255, 0.418);border-left:1px solid #eee;border-right:1px solid #999;}  
+            .raised .b3b{background:rgba(255, 255, 255, 0.418);border-left:1px solid #ddd;border-right:1px solid #999;}  
+            .raised .b2b{background:rgba(255, 255, 255, 0.418);border-left:1px solid #aaa;border-right:1px solid #999;}  
+            .raised .b1{margin:0 5px;background:rgba(255, 255, 255, 0.418);}  
+            .raised .b2, .raised .b2b{margin:0 3px;border-width:0 2px;}  
+            .raised .b3, .raised .b3b{margin:0 2px;}  
+            .raised .b4, .raised .b4b{height:2px; margin:0 1px;}  
+            .raised .b1b{margin:0 5px; background:rgb(77, 77, 77);}  
+            .raised .boxcontent{display:block;
+                                background-color:rgba(255, 255, 255, 0.418);
+                                border-left:1px solid rgba(255, 255, 255, 0.418);
+                                border-right:1px solid rgba(255, 255, 255, 0.418);
+                                border-bottom:1px solid rgba(255, 255, 255, 0.418);}  
+        </style>  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Item Search</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>  
+    <div class="flex-center flex-column" style="height: 25vh">
+        <h1 class="animated fadeIn mb-4">Let's enjoy searching </h1>
+        <h5 class="animated fadeIn mb-3">Thank you for your hard work.</h5>
+        <p class="animated fadeIn text-muted">from ECRD Section Item Team</p>
+    </div>
+
+    <div style="margin-left: 100px; margin-right: 100px; "class="raised"> 
+        
+        <b class="b1"></b><b class="b2"></b><b class="b3"></b><b class="b4"></b>  
+        <div class="boxcontent" >  
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label class="black-text" for="formGroupExampleInput">Shop id</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please input shop id">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <i class="fa fa-pencil prefix"></i>
+                            <label class="black-text" for="exampleFormControlTextarea1">Item Id</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please input item id" rows="15"></textarea>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <i class="fa fa-pencil prefix"></i>
+                            <label class="black-text" for="exampleFormControlTextarea1">Item Management No.</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Searching" rows="15"></textarea>
+                        </div>
+                    </td>
+                </tr>
+    <!-- CSV file
+                <tr>
+                    <td>
+                        <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                        </div>
+                        <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        </div>
+                        </div>
+
+                        <div>
+                                error message area
+                        </div>
+
+                    </td>
+
+                </tr>
+    -->
+                </tbody>
+            </table>
+        </div>  
+        <b class="b4b"></b><b class="b3b"></b><b class="b2b"></b><b class="b1b"></b> 
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+</body>
+
+</html>
